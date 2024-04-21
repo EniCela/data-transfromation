@@ -1,0 +1,1307 @@
+ [
+    {
+        "guest_id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone_number": "+1234567890",
+        "bookings": [
+          {
+            "booking_id": 1,
+            "room_number": [
+              {
+                "room_number": 101,
+                "type": "Single",
+                "rate_per_night": 100.00,
+                "offers": [
+                  {
+                    "offer_id": 1,
+                    "offer_name": "Spring Promotion",
+                    "offer_description": "10% off for bookings during March and April",
+                    "offer_discount": 10.00,
+                    "start_date": "2024-03-01",
+                    "end_date": "2024-04-30"
+                  }
+                ]
+              }
+            ],
+            "check_in_date": "2024-03-01",
+            "check_out_date": "2024-03-05",
+            "services": [
+              {
+                "service_id": 1,
+                "name": "Room Service - Breakfast",
+                "description": "Continental breakfast served in-room",
+                "cost": 15.00,
+                "quantity": 2
+              }
+            ],
+            "payments": [
+              {
+                "payment_id": 1,
+                "amount": 500,
+                "payment_date": "2024-03-01",
+                "payment_method": {
+                  "method_id": 5,
+                  "method_type": "Credit Card"
+                }
+              }
+            ],
+            "feedback": {
+              "feedback_id": 1,
+              "rating": 5,
+              "comments": "Great service, comfortable stay!"
+            }
+          }
+        ]
+        },
+    {
+        "guest_id": 2,
+        "name": "Alice Smith",
+        "email": "alice@example.com",
+        "phone_number": "+1987654321",
+        "bookings": [
+          {
+            "booking_id": 2,
+            "room_number": [
+              {
+                "room_number": 201,
+                "type": "Double",
+                "rate_per_night": 150.00
+              }
+            ],
+            "check_in_date": "2024-05-10",
+            "check_out_date": "2024-05-15",
+            "services": [
+              {
+                "service_id": 2,
+                "name": "Spa Package",
+                "description": "Includes massage and facial treatment",
+                "cost": 120.00,
+                "quantity": 1
+              }
+            ],
+            "payments": [
+              {
+                "payment_id": 2,
+                "amount": 720,
+                "payment_date": "2024-05-10",
+                "payment_method": {
+                  "method_id": 3,
+                  "method_type": "Debit Card"
+                }
+              }
+            ],
+            "feedback": {
+              "feedback_id": 2,
+              "rating": 4,
+              "comments": "Lovely stay, but could improve on room cleanliness."
+            }
+          }
+        ]
+        },
+    {
+            "guest_id": 3,
+            "name": "Emily Johnson",
+            "email": "emily@example.com",
+            "phone_number": "+1122334455",
+            "bookings": [
+              {
+                "booking_id": 3,
+                "room_number": [
+                  {
+                    "room_number": 301,
+                    "type": "Suite",
+                    "rate_per_night": 250.00,
+                    "offers": [
+                      {
+                        "offer_id": 2,
+                        "offer_name": "Summer Special",
+                        "offer_description": "20% off for bookings in June and July",
+                        "offer_discount": 20.00,
+                        "start_date": "2024-06-01",
+                        "end_date": "2024-07-31"
+                      }
+                    ]
+                  }
+                ],
+                "check_in_date": "2024-06-15",
+                "check_out_date": "2024-06-20",
+                "services": [
+                  {
+                    "service_id": 3,
+                    "name": "Airport Transfer",
+                    "description": "Private car transfer from airport to hotel",
+                    "cost": 50.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 3,
+                    "amount": 170,
+                    "payment_date": "2024-06-15",
+                    "payment_method": {
+                      "method_id": 1,
+                      "method_type": "PayPal"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 3,
+                  "rating": 5,
+                  "comments": "Exceptional service, luxurious stay!"
+                }
+              }
+            ]
+        },
+    {
+                "guest_id": 4,
+                "name": "Michael Brown",
+                "email": "michael@example.com",
+                "phone_number": "+1654321876",
+                "bookings": [
+                  {
+                    "booking_id": 4,
+                    "room_number": [
+                      {
+                        "room_number": 102,
+                        "type": "Single",
+                        "rate_per_night": 110.00
+                      }
+                    ],
+                    "check_in_date": "2024-04-20",
+                    "check_out_date": "2024-04-25",
+                    "payments": [
+                      {
+                        "payment_id": 4,
+                        "amount": 550,
+                        "payment_date": "2024-04-20",
+                        "payment_method": {
+                          "method_id": 2,
+                          "method_type": "Cash"
+                        }
+                      }
+                    ],
+                    "feedback": {
+                      "feedback_id": 4,
+                      "rating": 3,
+                      "comments": "Decent stay, but room service could be faster."
+                    }
+                  }
+                ]
+        },
+    {
+                "guest_id": 5,
+                "name": "Sophia Wilson",
+                "email": "sophia@example.com",
+                "phone_number": "+1223344556",
+                "bookings": [
+                  {
+                    "booking_id": 5,
+                    "room_number": [
+                      {
+                        "room_number": 202,
+                        "type": "Double",
+                        "rate_per_night": 160.00
+                      }
+                    ],
+                    "check_in_date": "2024-07-10",
+                    "check_out_date": "2024-07-15",
+                    "payments": [
+                      {
+                        "payment_id": 5,
+                        "amount": 800,
+                        "payment_date": "2024-07-10",
+                        "payment_method": {
+                          "method_id": 5,
+                          "method_type": "Credit Card"
+                        }
+                      }
+                    ],
+                    "feedback": {
+                      "feedback_id": 64,
+                      "rating": 4,
+                      "comments": "Decentt stayy, but room servicee could be faster."
+                    }
+                  },
+                  {
+                    "booking_id": 6,
+                    "room_number": [
+                      {
+                        "room_number": 203,
+                        "type": "Suite",
+                        "rate_per_night": 280.00
+                      }
+                    ],
+                    "check_in_date": "2024-08-05",
+                    "check_out_date": "2024-08-10",
+                    "payments": [
+                      {
+                        "payment_id": 6,
+                        "amount": 140,
+                        "payment_date": "2024-08-05",
+                        "payment_method": {
+                          "method_id": 3,
+                          "method_type": "Debit Card"
+                        }
+                      }
+                    ],
+                    "feedback": {
+                      "feedback_id": 5,
+                      "rating": 4,
+                      "comments": "Enjoyed my stay, especially the view from the suite!"
+                    }
+                  }
+                ]
+        },
+    {
+        "guest_id": 6,
+        "name": "James Taylor",
+        "email": "james@example.com",
+        "phone_number": "+1888777666",
+        "bookings": [
+          {
+            "booking_id": 7,
+            "room_number": [
+              {
+                "room_number": 103,
+                "type": "Single",
+                "rate_per_night": 90.00
+              }
+            ],
+            "check_in_date": "2024-09-01",
+            "check_out_date": "2024-09-05",
+            "payments": [
+              {
+                "payment_id": 7,
+                "amount": 360,
+                "payment_date": "2024-09-01",
+                "payment_method": {
+                  "method_id": 4,
+                  "method_type": "Bank Transfer"
+                }
+              }
+            ],
+            "feedback": {
+              "feedback_id": 6,
+              "rating": 4,
+              "comments": "Nice roomm, friendlyy staff!"
+
+            }
+          }
+        ]
+        },
+    {
+        "guest_id": 7,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "phone_number": "+1987654321",
+        "bookings": [
+          {
+            "booking_id": 30,
+            "room_number": [
+              {
+                "room_number": 201,
+                "type": "Double",
+                "rate_per_night": 150.00,
+                "offers": []
+              }
+            ],
+            "check_in_date": "2024-05-15",
+            "check_out_date": "2024-05-20",
+            "services": [
+              {
+                "service_id": 42,
+                "name": "Airport Shuttle",
+                "description": "One-way transfer from airport to hotel",
+                "cost": 50.00,
+                "quantity": 1
+              }
+            ],
+            "payments": [
+              {
+                "payment_id": 32,
+                "amount": 700,
+                "payment_date": "2024-05-15",
+                "payment_method": {
+                  "method_id": 3,
+                  "method_type": "Debit Card"
+                }
+              }
+            ],
+            "feedback": {
+              "feedback_id": 22,
+              "rating": 4,
+              "comments": "Nice room, friendly staff!"
+            }
+          }
+        ]
+        },
+    {
+        "guest_id": 8,
+        "name": "David Johnson",
+        "email": "david@example.com",
+        "phone_number": "+1122334455",
+        "bookings": [
+          {
+            "booking_id": 31,
+            "room_number": [
+              {
+                "room_number": 301,
+                "type": "Suite",
+                "rate_per_night": 250.00,
+                "offers": [
+                  {
+                    "offer_id": 32,
+                    "offer_name": "Summer Special",
+                    "offer_description": "20% off for bookings during June and July",
+                    "offer_discount": 20.00,
+                    "start_date": "2024-06-01",
+                    "end_date": "2024-07-31"
+                  }
+                ]
+              }
+            ],
+            "check_in_date": "2024-06-10",
+            "check_out_date": "2024-06-15",
+            "services": [],
+            "payments": [
+              {
+                "payment_id": 34,
+                "amount": 115,
+                "payment_date": "2024-06-10",
+                "payment_method": {
+                  "method_id": 2,
+                  "method_type": "Cash"
+                }
+              }
+            ],
+            "feedback": {
+              "feedback_id": 33,
+              "rating": 5,
+              "comments": "Amazing experience, luxurious suite!"
+            }
+          }
+        ]
+        },
+    {
+            "guest_id": 9,
+            "name": "Emily Williams",
+            "email": "emily@example.com",
+            "phone_number": "+1555098765",
+            "bookings": [
+              {
+                "booking_id": 32,
+                "room_number": [
+                  {
+                    "room_number": 401,
+                    "type": "Standard",
+                    "rate_per_night": 80.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2024-09-01",
+                "check_out_date": "2024-09-05",
+                "services": [
+                  {
+                    "service_id": 43,
+                    "name": "Car Rental",
+                    "description": "Compact car rental for local exploration",
+                    "cost": 40.00,
+                    "quantity": 3
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 44,
+                    "amount": 380,
+                    "payment_date": "2024-09-01",
+                    "payment_method": {
+                      "method_id": 4,
+                      "method_type": "Bank Transfer"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 44,
+                  "rating": 4,
+                  "comments": "Comfortable room, convenient car rental!"
+                }
+              }
+            ]
+        },  
+    {
+            "guest_id": 10,
+            "name": "Michael Brown",
+            "email": "michael@example.com",
+            "phone_number": "+1443322110",
+            "bookings": [
+              {
+                "booking_id": 33,
+                "room_number": [
+                  {
+                    "room_number": 501,
+                    "type": "Family",
+                    "rate_per_night": 200.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2024-11-01",
+                "check_out_date": "2024-11-30",
+                "services": [
+                  {
+                    "service_id": 44,
+                    "name": "Laundry Service",
+                    "description": "Wash, dry, and fold laundry service",
+                    "cost": 20.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 45,
+                    "name": "Airport Transfer",
+                    "description": "Round-trip transfer between airport and hotel",
+                    "cost": 100.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 55,
+                    "amount": 690,
+                    "payment_date": "2024-11-01",
+                    "payment_method": {
+                      "method_id": 1,
+                      "method_type": "PayPal"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 45,
+                  "rating": 5,
+                  "comments": "Excellent stay, appreciated the laundry service and airport transfers!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 11,
+            "name": "Sarah Taylor",
+            "email": "sarah@example.com",
+            "phone_number": "+1777888999",
+            "bookings": [
+              {
+                "booking_id": 34,
+                "room_number": [
+                  {
+                    "room_number": 601,
+                    "type": "Single",
+                    "rate_per_night": 120.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2025-01-10",
+                "check_out_date": "2025-01-15",
+                "services": [
+                  {
+                    "service_id": 46,
+                    "name": "In-Room Dining",
+                    "description": "Gourmet meal served in-room",
+                    "cost": 50.00,
+                    "quantity": 2
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 66,
+                    "amount": 340,
+                    "payment_date": "2025-01-10",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 36,
+                  "rating": 4,
+                  "comments": "Enjoyed the in-room dining experience!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 12,
+            "name": "Robert Johnson",
+            "email": "robert@example.com",
+            "phone_number": "+1122334455",
+            "bookings": [
+              {
+                "booking_id": 35,
+                "room_number": [
+                  {
+                    "room_number": 701,
+                    "type": "Suite",
+                    "rate_per_night": 300.00,
+                    "offers": [
+                      {
+                        "offer_id": 3,
+                        "offer_name": "Winter Escape",
+                        "offer_description": "25% off for bookings during December and January",
+                        "offer_discount": 25.00,
+                        "start_date": "2024-12-01",
+                        "end_date": "2025-01-31"
+                      }
+                    ]
+                  }
+                ],
+                "check_in_date": "2025-01-20",
+                "check_out_date": "2025-01-25",
+                "services": [
+                  {
+                    "service_id": 47,
+                    "name": "Spa Package",
+                    "description": "Full-day spa treatment with massage and facial",
+                    "cost": 150.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 67,
+                    "amount": 100,
+                    "payment_date": "2025-01-20",
+                    "payment_method": {
+                      "method_id": 5,
+                      "method_type": "Credit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id":37,
+                  "rating": 5,
+                  "comments": "Exceptional service, luxurious suite, and amazing spa experience!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 13,
+            "name": "Jessica Martinez",
+            "email": "jessica@example.com",
+            "phone_number": "+1987654321",
+            "bookings": [
+              {
+                "booking_id": 36,
+                "room_number": [
+                  {
+                    "room_number": 801,
+                    "type": "Double",
+                    "rate_per_night": 180.00,
+                    "offers": [
+                      {
+                        "offer_id": 4,
+                        "offer_name": "Weekend Getaway",
+                        "offer_description": "15% off for bookings during weekends",
+                        "offer_discount": 15.00,
+                        "start_date": "2025-03-01",
+                        "end_date": "2025-12-31"
+                      }
+                    ]
+                  }
+                ],
+                "check_in_date": "2025-05-10",
+                "check_out_date": "2025-05-15",
+                "services": [
+                  {
+                    "service_id": 48,
+                    "name": "City Tour",
+                    "description": "Guided tour of the city's main attractions",
+                    "cost": 30.00,
+                    "quantity": 2
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 48,
+                    "amount": 900,
+                    "payment_date": "2025-05-10",
+                    "payment_method": {
+                      "method_id": 3,
+                      "method_type": "Debit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 48,
+                  "rating": 4,
+                  "comments": "Lovely room, enjoyed the weekend getaway offer and the city tour!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 14,
+            "name": "Christopher Davis",
+            "email": "chris@example.com",
+            "phone_number": "+1555098765",
+            "bookings": [
+              {
+                "booking_id": 9,
+                "room_number": [
+                  {
+                    "room_number": 901,
+                    "type": "Standard",
+                    "rate_per_night": 90.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2025-07-05",
+                "check_out_date": "2025-07-10",
+                "services": [
+                  {
+                    "service_id": 49,
+                    "name": "Car Rental",
+                    "description": "Compact car rental for local exploration",
+                    "cost": 50.00,
+                    "quantity": 3
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 79,
+                    "amount": 430,
+                    "payment_date": "2025-07-05",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 39,
+                  "rating": 4,
+                  "comments": "Comfortable room, convenient car rental service!"
+                }
+              }
+            ]
+        } ,
+    {
+            "guest_id": 15,
+            "name": "Amanda Wilson",
+            "email": "amanda@example.com",
+            "phone_number": "+1443322110",
+            "bookings": [
+              {
+                "booking_id": 10,
+                "room_number": [
+                  {
+                    "room_number": 1001,
+                    "type": "Family",
+                    "rate_per_night": 220.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2025-09-01",
+                "check_out_date": "2025-09-30",
+                "services": [
+                  {
+                    "service_id": 10,
+                    "name": "Laundry Service",
+                    "description": "Wash, dry, and fold laundry service",
+                    "cost": 20.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 11,
+                    "name": "Airport Transfer",
+                    "description": "Round-trip transfer between airport and hotel",
+                    "cost": 100.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 12,
+                    "name": "Room Service - Dinner",
+                    "description": "Gourmet dinner served in-room",
+                    "cost": 50.00,
+                    "quantity": 3
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 10,
+                    "amount": 730,
+                    "payment_date": "2025-09-01",
+                    "payment_method": {
+                      "method_id": 5,
+                      "method_type": "Credit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 10,
+                  "rating": 5,
+                  "comments": "Fantastic stay, appreciated the laundry service, airport transfers, and delicious room service dinners!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 16,
+            "name": "Jennifer Brown",
+            "email": "jennifer@example.com",
+            "phone_number": "+1777888999",
+            "bookings": [
+              {
+                "booking_id": 11,
+                "room_number": [
+                  {
+                    "room_number": 1101,
+                    "type": "Single",
+                    "rate_per_night": 130.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2026-01-10",
+                "check_out_date": "2026-01-15",
+                "services": [
+                  {
+                    "service_id": 13,
+                    "name": "In-Room Dining",
+                    "description": "Gourmet meal served in-room",
+                    "cost": 50.00,
+                    "quantity": 2
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 11,
+                    "amount": 360,
+                    "payment_date": "2026-01-10",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 11,
+                  "rating": 4,
+                  "comments": "Enjoyed the in-room dining experience, overall a pleasant stay!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 17,
+            "name": "Michelle Garcia",
+            "email": "michelle@example.com",
+            "phone_number": "+1234567890",
+            "bookings": [
+              {
+                "booking_id": 12,
+                "room_number": [
+                  {
+                    "room_number": 1201,
+                    "type": "Single",
+                    "rate_per_night": 120.00,
+                    "offers": [
+                      {
+                        "offer_id": 5,
+                        "offer_name": "Summer Special",
+                        "offer_description": "20% off for bookings during June and July",
+                        "offer_discount": 20.00,
+                        "start_date": "2026-06-01",
+                        "end_date": "2026-07-31"
+                      }
+                    ]
+                  }
+                ],
+                "check_in_date": "2026-07-15",
+                "check_out_date": "2026-07-20",
+                "services": [],
+                "payments": [
+                  {
+                    "payment_id": 12,
+                    "amount": 480,
+                    "payment_date": "2026-07-15",
+                    "payment_method": {
+                      "method_id": 5,
+                      "method_type": "Credit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 12,
+                  "rating": 4,
+                  "comments": "Great room, enjoyed the summer discount!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 18,
+            "name": "William Rodriguez",
+            "email": "william@example.com",
+            "phone_number": "+9876543210",
+            "bookings": [
+              {
+                "booking_id": 13,
+                "room_number": [
+                  {
+                    "room_number": 1301,
+                    "type": "Suite",
+                    "rate_per_night": 350.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2026-08-10",
+                "check_out_date": "2026-08-15",
+                "services": [
+                  {
+                    "service_id": 14,
+                    "name": "Private Chef",
+                    "description": "Personal chef service for dinner",
+                    "cost": 200.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 15,
+                    "name": "Wine Tasting",
+                    "description": "Selection of fine wines with sommelier",
+                    "cost": 100.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 13,
+                    "amount": 190,
+                    "payment_date": "2026-08-10",
+                    "payment_method": {
+                      "method_id": 3,
+                      "method_type": "Debit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 13,
+                  "rating": 5,
+                  "comments": "Incredible suite, enjoyed the private chef and wine tasting experience!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 19,
+            "name": "Sophia Martinez",
+            "email": "sophia@example.com",
+            "phone_number": "+1122334455",
+            "bookings": [
+              {
+                "booking_id": 14,
+                "room_number": [
+                  {
+                    "room_number": 1401,
+                    "type": "Double",
+                    "rate_per_night": 200.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2026-09-10",
+                "check_out_date": "2026-09-12",
+                "services": [
+                  {
+                    "service_id": 16,
+                    "name": "City Tour",
+                    "description": "Guided tour of the city's main attractions",
+                    "cost": 50.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 17,
+                    "name": "Room Service - Dinner",
+                    "description": "Special dinner served in-room",
+                    "cost": 80.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 14,
+                    "amount": 330,
+                    "payment_date": "2026-09-10",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 14,
+                  "rating": 4,
+                  "comments": "Nice room, enjoyed the city tour and special dinner!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 20,
+            "name": "Daniel Brown",
+            "email": "daniel@example.com",
+            "phone_number": "+1555098765",
+            "bookings": [
+              {
+                "booking_id": 15,
+                "room_number": [
+                  {
+                    "room_number": 1501,
+                    "type": "Standard",
+                    "rate_per_night": 150.00,
+                    "offers": [
+                      {
+                        "offer_id": 6,
+                        "offer_name": "Winter Wonderland",
+                        "offer_description": "30% off for bookings during December and January",
+                        "offer_discount": 30.00,
+                        "start_date": "2026-12-01",
+                        "end_date": "2027-01-31"
+                      }
+                    ]
+                  }
+                ],
+                "check_in_date": "2026-12-20",
+                "check_out_date": "2026-12-25",
+                "services": [],
+                "payments": [
+                  {
+                    "payment_id": 15,
+                    "amount": 750,
+                    "payment_date": "2026-12-20",
+                    "payment_method": {
+                      "method_id": 5,
+                      "method_type": "Credit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 15,
+                  "rating": 5,
+                  "comments": "Lovely room, appreciated the winter discount!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 21,
+            "name": "Olivia Taylor",
+            "email": "olivia@example.com",
+            "phone_number": "+1777888999",
+            "bookings": [
+              {
+                "booking_id": 16,
+                "room_number": [
+                  {
+                    "room_number": 1601,
+                    "type": "Single",
+                    "rate_per_night": 130.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2027-01-10",
+                "check_out_date": "2027-01-15",
+                "services": [
+                  {
+                    "service_id": 18,
+                    "name": "Car Rental",
+                    "description": "Compact car rental for local exploration",
+                    "cost": 50.00,
+                    "quantity": 3
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 16,
+                    "amount": 560,
+                    "payment_date": "2027-01-10",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 16,
+                  "rating": 4,
+                  "comments": "Comfortable room, convenient car rental service!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 22,
+            "name": "Ethan Martinez",
+            "email": "ethan@example.com",
+            "phone_number": "+1234567890",
+            "bookings": [
+              {
+                "booking_id": 17,
+                "room_number": [
+                  {
+                    "room_number": 1701,
+                    "type": "Suite",
+                    "rate_per_night": 400.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2027-02-15",
+                "check_out_date": "2027-02-20",
+                "services": [
+                  {
+                    "service_id": 19,
+                    "name": "Spa Package",
+                    "description": "Full-day spa treatment with massage and facial",
+                    "cost": 150.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 20,
+                    "name": "Private Butler",
+                    "description": "Personal butler service for assistance",
+                    "cost": 200.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 17,
+                    "amount": 290,
+                    "payment_date": "2027-02-15",
+                    "payment_method": {
+                      "method_id": 5,
+                      "method_type": "Credit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 17,
+                  "rating": 5,
+                  "comments": "Unforgettable experience, especially enjoyed the spa package and private butler service!"
+                }
+              }
+            ]
+        },       
+    {
+            "guest_id": 23,
+            "name": "Amelia Wilson",
+            "email": "amelia@example.com",
+            "phone_number": "+9876543210",
+            "bookings": [
+              {
+                "booking_id": 18,
+                "room_number": [
+                  {
+                    "room_number": 1801,
+                    "type": "Double",
+                    "rate_per_night": 250.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2027-03-10",
+                "check_out_date": "2027-03-12",
+                "services": [
+                  {
+                    "service_id": 21,
+                    "name": "City Tour",
+                    "description": "Guided tour of the city's main attractions",
+                    "cost": 50.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 22,
+                    "name": "Room Service - Dinner",
+                    "description": "Special dinner served in-room",
+                    "cost": 80.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 18,
+                    "amount": 380,
+                    "payment_date": "2027-03-10",
+                    "payment_method": {
+                      "method_id": 3,
+                      "method_type": "Debit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 18,
+                  "rating": 4,
+                  "comments": "Cozy room, enjoyed the city tour and special dinner!"
+                }
+              }
+            ]
+        },  
+    {
+            "guest_id": 24,
+            "name": "Mia Johnson",
+            "email": "mia@example.com",
+            "phone_number": "+1122334455",
+            "bookings": [
+              {
+                "booking_id": 19,
+                "room_number": [
+                  {
+                    "room_number": 1901,
+                    "type": "Single",
+                    "rate_per_night": 150.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2027-04-15",
+                "check_out_date": "2027-04-17",
+                "services": [
+                  {
+                    "service_id": 23,
+                    "name": "Spa Package",
+                    "description": "Full-day spa treatment with massage and facial",
+                    "cost": 150.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 24,
+                    "name": "City Tour",
+                    "description": "Guided tour of the city's main attractions",
+                    "cost": 50.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 19,
+                    "amount": 350,
+                    "payment_date": "2027-04-15",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 19,
+                  "rating": 5,
+                  "comments": "Relaxing weekend, loved the spa package and city tour!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 25,
+            "name": "Noah Brown",
+            "email": "noah@example.com",
+            "phone_number": "+1555098765",
+            "bookings": [
+              {
+                "booking_id": 20,
+                "room_number": [
+                  {
+                    "room_number": 2001,
+                    "type": "Standard",
+                    "rate_per_night": 120.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2027-05-20",
+                "check_out_date": "2027-05-22",
+                "services": [
+                  {
+                    "service_id": 25,
+                    "name": "Romantic Dinner",
+                    "description": "Special dinner setup for a romantic evening",
+                    "cost": 100.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 26,
+                    "name": "City Walk",
+                    "description": "Self-guided walking tour of the city",
+                    "cost": 0.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 20,
+                    "amount": 240,
+                    "payment_date": "2027-05-20",
+                    "payment_method": {
+                      "method_id": 5,
+                      "method_type": "Credit Card"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 20,
+                  "rating": 4,
+                  "comments": "Nice room, enjoyed the romantic dinner setup and city walk!"
+                }
+              }
+            ]
+        },
+    {
+            "guest_id": 26,
+            "name": "Emma Taylor",
+            "email": "emma@example.com",
+            "phone_number": "+1777888999",
+            "bookings": [
+              {
+                "booking_id": 21,
+                "room_number": [
+                  {
+                    "room_number": 2101,
+                    "type": "Standard",
+                    "rate_per_night": 100.00,
+                    "offers": []
+                  }
+                ],
+                "check_in_date": "2027-06-10",
+                "check_out_date": "2027-06-15",
+                "services": [
+                  {
+                    "service_id": 27,
+                    "name": "Room Upgrade",
+                    "description": "Upgrade to a room with a better view",
+                    "cost": 50.00,
+                    "quantity": 1
+                  },
+                  {
+                    "service_id": 28,
+                    "name": "Breakfast Buffet",
+                    "description": "Full breakfast buffet in the hotel restaurant",
+                    "cost": 20.00,
+                    "quantity": 1
+                  }
+                ],
+                "payments": [
+                  {
+                    "payment_id": 21,
+                    "amount": 570,
+                    "payment_date": "2027-06-10",
+                    "payment_method": {
+                      "method_id": 2,
+                      "method_type": "Cash"
+                    }
+                  }
+                ],
+                "feedback": {
+                  "feedback_id": 21,
+                  "rating": 5,
+                  "comments": "Pleasant stay, appreciated the room upgrade and breakfast buffet!"
+                }
+              }
+            ]
+        }      
+    ]
+  
+  
